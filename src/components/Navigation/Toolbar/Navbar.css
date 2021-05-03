@@ -1,5 +1,5 @@
 .NavbarItems{
-    background-color: black;
+    background-color: rgba(17, 15, 15, 0.993);
     /* background: linear-gradient(90deg , rgba(10, 10, 10, 0.747) , rgb(13, 14, 14) 100%); */
     height: 60px;
     display: flex;
@@ -32,14 +32,16 @@
     color: aliceblue;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    font-size: 17px;
 }
 .nav-links:hover{
 
-    /* background-color: #12959e44; */
-    
     color: rgb(167, 145, 24);
     transition: 0.3s ease all;
     border-bottom: 4px solid rgb(168, 154, 73);
+}
+.Logo{
+    width: 9%;
 }
 /* 
 @media screen and (max-width: 580px){
