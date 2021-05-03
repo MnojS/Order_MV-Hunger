@@ -6,12 +6,13 @@ import DrawerToggleButton from '../SideDrawer/DrawerToggleButton'
 import "../SideDrawer/DrawerToggleButton.css"
 
 const Toolbar = (props) => (
-    <header>
-        <nav>
-           <div className="NavbarItems">
-            <div>
-                <DrawerToggleButton click={props.drawerClickHandler}/>
+    <header className= "Toolbar">
+        <div>
+             <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
+        <nav className="DesktopOnly">
+           <div className="NavbarItems">
+            
             <h1 className='navbar-logo'>
                 <img src={PizzaLogo} className="Logo" />
             </h1>

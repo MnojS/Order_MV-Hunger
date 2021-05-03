@@ -1,12 +1,24 @@
 .NavbarItems{
     background-color: rgba(17, 15, 15, 0.993);
-    /* background: linear-gradient(90deg , rgba(10, 10, 10, 0.747) , rgb(13, 14, 14) 100%); */
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
     width: 100%;
+}
+.Toolbar {
+    height: 59px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 15, 15, 0.993);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+
 }
 .navbar-logo{
     color: white;
@@ -14,19 +26,12 @@
     cursor: pointer;
     margin-left: 0.5rem;
 }
-.fa-cookie-bite {
-    margin-left: -0.5rem ;
-    font-size: 30px;
-}
+
 .nav-menu{
-    display: grid;
-    grid-template-columns: repeat(6,auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 70vw;
-    justify-content: end;
-    margin-right: 2rem;
+   text-decoration: none;
+   width: 100%;
+   
+   display: block;
 }
 .nav-links{
     color: aliceblue;
@@ -37,32 +42,32 @@
 .nav-links:hover{
 
     color: rgb(167, 145, 24);
-    transition: 0.3s ease all;
+    
     border-bottom: 4px solid rgb(168, 154, 73);
 }
 .Logo{
     width: 9%;
 }
-/* 
-@media screen and (max-width: 580px){
+
+@media(min-width: 500px) {
     .NavbarItems{
-        background-color: black;
-        /* background: linear-gradient(90deg , rgba(10, 10, 10, 0.747) , rgb(13, 14, 14) 100%); 
+        background-color: rgba(17, 15, 15, 0.993);
+        /* background: linear-gradient(90deg , rgba(10, 10, 10, 0.747) , rgb(13, 14, 14) 100%); */
         height: 60px;
         display: flex;
-        width: 1200px;
         justify-content: center;
         align-items: center;
         font-size: 15px;
+        width: auto;
     }
     .navbar-logo{
         color: white;
         justify-self: start;
-        margin-right: auto;
         cursor: pointer;
+        margin-left: 0.5rem;
     }
     .fa-cookie-bite {
-        margin-left: 0.5rem ;
+        margin-left: -0.5rem ;
         font-size: 30px;
     }
     .nav-menu{
@@ -79,5 +84,24 @@
         color: aliceblue;
         text-decoration: none;
         padding: 0.5rem 1rem;
+        font-size: 17px;
+        height: 100%;
     }
-} */
+    .nav-links:hover{
+    
+        color: rgb(167, 145, 24);
+        transition: 0.3s ease all;
+        border-bottom: 4px solid rgb(168, 154, 73);
+    }
+    .Logo{
+        width: 9%;
+    }
+
+}
+
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+}

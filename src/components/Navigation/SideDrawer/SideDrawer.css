@@ -6,17 +6,25 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 70%;
-    max-width: 400px;
+    width: 280px;
+    max-width: 70%;
     z-index:200;
     transform: translateX(-100);
     transition: transform 0.3s ease-out;
+    padding: 32px 16px;
+    box-sizing: border-box;
 
 }
 a{
     color:white;
     text-decoration: none;
     font-size: 1.2rem;
+}
+
+@media (min-width: 500px) {
+    .side-drawer {
+        display:none;
+    }
 }
 
 a:hover,
@@ -26,7 +34,7 @@ a.active{
     /* background-color: #12959e44; */
     
     color: rgb(167, 145, 24);
-    transition: 0.3s ease all;
+    
     border-bottom: 4px solid rgb(168, 154, 73);
 }
 
@@ -42,6 +50,10 @@ a.active{
     margin: 0.5rem 0;
 }
 
-.open {
+.Open {
     transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
 }
