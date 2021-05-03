@@ -1,26 +1,29 @@
 import React from 'react'
 import './Home.css'
+import Buttons from '../Home/Button/Buttons'
 import Carousel from 'react-material-ui-carousel'
-import burger1 from '../../assets/burger1.jpg'
-import pizza1 from '../../assets/pizza1.jpg'
+import bg_1 from '../../assets/bg_1.png'
+import bg_2 from '../../assets/bg_2.png'
 
 function Home() {
+
     return (
         <div className="home">
-            <div className="home_carousel">
-                <Carousel autoPlay animation='fade'>
-                    <div>
-                        <img src={burger1} alt="burger pic" className='pI' />
-                    </div>
-                    <div>
-                        <img src={pizza1} alt="pizza pic"className='pI' />
-                    </div>
-                </Carousel>
-
-            </div>
-            
+            <Buttons className="buttonGroup"/>
+            <Carousel>
+                <div>
+                    <img src={bg_2} className={'homePic'}/>
+                    <h1>Hello</h1>
+                </div>
+                <div>
+                    <img src={bg_1} className={'homePic'} />
+                    <h1>Helooooo</h1>
+                </div>
+            </Carousel>
         </div>
     )
 }
 
 export default Home
+
+
