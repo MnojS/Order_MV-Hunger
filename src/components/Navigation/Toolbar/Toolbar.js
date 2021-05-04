@@ -11,6 +11,7 @@ const Toolbar = (props) => (
              <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
         <nav className="DesktopOnly">
+        
            <div className="NavbarItems">
             
             <h1 className='navbar-logo'>
