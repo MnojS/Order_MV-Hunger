@@ -10,7 +10,7 @@ function Buttons() {
                     size="large"
                     variant="contained"
                     color="secondary"
-                    >Order Now
+                    >Order
                 </Button>
                 <Button 
                     size="large"
