@@ -14,7 +14,7 @@ const Toolbar = (props) => (
            <div className="NavbarItems">
             
             <h1 className='navbar-logo'>
-                <img src={PizzaLogo} className="Logo" />
+                <img alt="logo" src={PizzaLogo} className="Logo" />
             </h1>
             <ul className = 'nav-menu' >
                     {MenuItems.map((items , index) => {

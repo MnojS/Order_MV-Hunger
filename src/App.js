@@ -5,7 +5,7 @@ import Home from './components/Home/Home'
 
 class App extends Component {
   state = {
-    showSideDrawer: false
+    showSideDrawer: true
 
   }
   drawerToggleClickHandler = () => {
