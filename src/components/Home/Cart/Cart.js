@@ -26,7 +26,7 @@ export default function MediaCard() {
       <CardActionArea>
         <CardContent>
           <Typography gutterBottom variant="h3" component="h2">
-            MV-Order
+            MV-Hunger
           </Typography>
           <Typography variant="h5" color="textSecondary" component="h5" style={{color:"White"}}>
             Life is too short to miss out on double cheeseburgers
