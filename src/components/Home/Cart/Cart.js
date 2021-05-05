@@ -7,41 +7,34 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import './Cart.css'
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 665,
+  },
+  media: {
+    height: 14,
   },
 });
 
-export default function ImgMediaCard() {
+export default function MediaCard() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root , 'mvOrder'}>
       <CardActionArea>
-        <CardMedia
-          component="img"
-          alt="Contemplative Reptile"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-        />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+          <Typography gutterBottom variant="h3" component="h2">
+            MV-Order
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+          <Typography variant="h5" color="textSecondary" component="h5" style={{color:"White"}}>
+            Life is too short to miss out on double cheeseburgers
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
+        <Button size="large" color="secondary" variant="contained" style={{fontSize:"20px"}}>
           Learn More
         </Button>
       </CardActions>
