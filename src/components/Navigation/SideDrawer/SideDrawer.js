@@ -16,9 +16,9 @@ const SideDrawer = (props) => {
             <Backdrop show={props.open} clicked={props.closed} />
             <nav className={attachedClasses.join(' ')}>
                 <ul>
-                            {MenuItems.map((items , index) => {
+                            {MenuItems.map((items ) => {
                                 return (
-                                    <li> 
+                                    <li key={items.title}> 
                                         <a href={items.url} >
                                             {items.title}
                                         </a> 
