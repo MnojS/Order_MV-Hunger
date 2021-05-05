@@ -2,10 +2,12 @@ import SideDrawer from './components/Navigation/SideDrawer/SideDrawer';
 import Toolbar from './components/Navigation/Toolbar/Toolbar';
 import React ,{Component} from 'react'
 import Home from './components/Home/Home'
+import MediaCard from './components/Home/Cart/Cart';
+
 
 class App extends Component {
   state = {
-    showSideDrawer: true
+    showSideDrawer: false
 
   }
   drawerToggleClickHandler = () => {
@@ -27,10 +29,8 @@ class App extends Component {
         <SideDrawer 
         open={this.state.showSideDrawer}
         closed={this.sideDrawerClosedHandler} />
-        
-        
         <Home />
-        
+        <MediaCard />
       </div>
     );
   }
