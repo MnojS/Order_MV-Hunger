@@ -3,7 +3,7 @@ import Toolbar from './components/Navigation/Toolbar/Toolbar';
 import React ,{Component} from 'react'
 import Home from './components/Home/Home'
 import MediaCard from './components/Home/Cart/Cart';
-
+import Footer from './components/Footer/Footer'
 
 class App extends Component {
   state = {
@@ -31,6 +31,7 @@ class App extends Component {
         closed={this.sideDrawerClosedHandler} />
         <Home />
         <MediaCard />
+        <Footer/>
       </div>
     );
   }
