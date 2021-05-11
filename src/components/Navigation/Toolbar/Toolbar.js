@@ -1,10 +1,9 @@
 import React from 'react'
 import MenuItems from "../MenuItems/MenuItems"
 import "../Toolbar/Navbar.css"
-import PizzaLogo from '../../../assets/PizzaLogo.png'
+// import PizzaLogo from '../../../assets/PizzaLogo.png'
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton'
 // import "../SideDrawer/DrawerToggleButton.css"
-import { useId } from "react-id-generator";
 
 const Toolbar = (props) => (
     

@@ -46,13 +46,13 @@
     .homePic{
         /* border: 1px solid white; */
         width: 250px;
-        height: 290px;
+        height: 250px;
         margin-left: 60px;
         margin-bottom: -129px;
         margin-top: 180px;
     }
     .buttonGroup{
-        margin-left: 20px;
+        margin-left: -5px;
     }
     .Quote{
         margin: 120px 10px;

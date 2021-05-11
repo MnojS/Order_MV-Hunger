@@ -1,0 +1,22 @@
+.page{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(226, 115, 64, 0.301);
+}
+.pageImage{
+    width: 100%;
+    opacity: 0.88;
+}
+@media(max-width: 999px){
+    .page{
+        display: inline-block;
+        text-align: center;
+        background: rgba(226, 115, 64, 0.301);
+}
+    .pageImage{
+        width: 100%;
+        opacity: 0.95;
+}
+}
