@@ -1,13 +1,29 @@
-import React from 'react'
-import './DrawerToggleButton.css'
-import PizzaLogo from '../../../assets/PizzaLogo.png'
+import React, { useState } from "react";
+import "./DrawerToggleButton.css";
+import PizzaLogo from "../../../assets/PizzaLogo.png";
+import SideDrawer from "./SideDrawer";
 
-const DrawerToggleButton = (props) => (
-    <button className='toggle-button' onClick={props.click}>
+const DrawerToggleButton = () => {
+  const [showSidebar, setShowSidebar] = useState(false);
+
+  const drawerToggleClickHandler = () => {
+    setShowSidebar(!showSidebar);
+  };
+
+  const sideDrawerClosedHandler = () => {
+    setShowSidebar(false);
+  };
+
+  return (
+    <React.Fragment>
+      <button className="toggle-button" onClick={drawerToggleClickHandler}>
         <img alt="logo" src={PizzaLogo} className="Logoo" />
-    </button>
-
-)
-    
+      </button>
+      {window.innerWidth <= 500 ? (
+        <SideDrawer open={showSidebar} closed={sideDrawerClosedHandler} />
+      ) : null}
+    </React.Fragment>
+  );
+};
 
 export default DrawerToggleButton;

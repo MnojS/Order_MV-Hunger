@@ -1,45 +1,30 @@
-import SideDrawer from './components/Navigation/SideDrawer/SideDrawer';
-import Toolbar from './components/Navigation/Toolbar/Toolbar';
-import React ,{Component} from 'react'
-import Home from './components/Home/Home'
-import MediaCard from './components/Home/Cart/Cart';
-import Footer from './components/Footer/Footer'
-import Page from './components/Page2/Page';
-import OrderCart from './components/orderCartContainer/OrderCart/OrderCart';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
+import Toolbar from "./components/Navigation/Toolbar/Toolbar";
+import Menu from "./components/Menu/Menu.js";
 
 class App extends Component {
-  state = {
-    showSideDrawer: false
-
-  }
-  drawerToggleClickHandler = () => {
-    this.setState((prevState) => {
-      return {showSideDrawer : !prevState.showSideDrawer}
-    })
-
-  }
-  sideDrawerClosedHandler = () => {
-    this.setState({showSideDrawer: false})
-
-  }
   render() {
-    
     return (
-      <div style={{height:'100%'}}>
-        
-        <Toolbar  drawerClickHandler={this.drawerToggleClickHandler}/>
-        <SideDrawer 
-        open={this.state.showSideDrawer}
-        closed={this.sideDrawerClosedHandler} />
-        <Home />
-        <Page />
-        {/* <OrderCart /> */}
-        <MediaCard />
-        <Footer/>
+      <div>
+        <Router>
+          <Toolbar />
+          <Switch>
+            <Route path="/menu" component={Menu} />
+            <Route path="/services" component={Menu} />
+            <Route path="/blog" component={Menu} />
+            <Route path="/about" component={Menu} />
+            <Route path="/contact" component={Menu} />
+            <Route path="/" component={Home} />
+          </Switch>
+        </Router>
+        <Footer />
       </div>
     );
   }
-
 }
 
 export default App;
