@@ -1,10 +1,9 @@
 import React from 'react'
 import MenuItems from "../MenuItems/MenuItems"
 import "../Toolbar/Navbar.css"
-// import PizzaLogo from '../../../assets/PizzaLogo.png'
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton'
-// import "../SideDrawer/DrawerToggleButton.css"
-
+import { Route, NavLink, Switch} from 'react-router-dom'
+import Menu from '../../Menu/Menu'
 const Toolbar = (props) => (
     
     <header className= "Toolbar">
@@ -22,14 +21,27 @@ const Toolbar = (props) => (
                     {MenuItems.map((items ) => {
                         return (
                             <li key={items.title}> 
-                                <a className={items.cName} href={items.url} >
+                                <NavLink to={items.url} activeStyle={{
+                                    color: 'aliceblue',
+                                    textDecoration: 'none',
+                                    padding: '0.5rem 1rem',
+                                    fontSize: '17px'
+                                }}>
                                     {items.title}
-                                </a> 
+                                </NavLink>
                             </li>
                         )
                     })}
                     
                 </ul>
+                <Switch>
+                <Route path='/menu' component={Menu} />
+                <Route path='/services' component={Menu} />
+                <Route path='/blog' component={Menu} />
+                <Route path='/about' component={Menu} />
+                <Route path='/contact' component={Menu} />
+                </Switch>
+
             </div>
 
         </nav>
