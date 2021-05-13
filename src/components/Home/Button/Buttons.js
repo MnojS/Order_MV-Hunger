@@ -7,16 +7,18 @@ function Buttons() {
         <div>
              <ButtonGroup className="buttonGroup">
                 <Button 
+                    style={{fontSize:"20px" }}
                     size="large"
                     variant="contained"
                     color="secondary"
-                    >Order
+                    >Order Now
                 </Button>
                 <Button 
                     size="large"
+                    style={{fontSize:"20px"}}
                     variant="outlined"
-                    color="secondary"
-                    >Order Now
+                    color="inherit"
+                    >View Menu
                 </Button>
             </ButtonGroup>
         </div>

@@ -4,6 +4,7 @@ import React ,{Component} from 'react'
 import Home from './components/Home/Home'
 import MediaCard from './components/Home/Cart/Cart';
 import Footer from './components/Footer/Footer'
+import Page from './components/Page2/Page';
 
 class App extends Component {
   state = {
@@ -30,6 +31,8 @@ class App extends Component {
         open={this.state.showSideDrawer}
         closed={this.sideDrawerClosedHandler} />
         <Home />
+        <Page />
+        {/* <OrderCart /> */}
         <MediaCard />
         <Footer/>
       </div>

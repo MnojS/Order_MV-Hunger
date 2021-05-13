@@ -1,0 +1,30 @@
+.container{
+    margin-top: -20px;
+    background-color: rgba(0, 0, 0, 0.555);
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.blockTwo{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    width: 100%;
+    height: 60vh;
+    /* border: 1px solid black; */
+}
+.blockOne{
+    /* margin-top: 100px; */
+    margin-bottom: 50px;
+}
+.container-wrap{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 25vh;
+}
+.container-wrap img{
+    /* border: 1px solid black; */
+    width: 55%;
+    
+    transition: 0.4s ease all;
+}

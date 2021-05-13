@@ -1,32 +1,32 @@
 const MenuItems = [
   {
+      url : '/home',
       title : 'Home',
-      url :'#',
       cName : 'nav-links'
   },
   {
       title : 'Menu',
-      url :'#',
+      url :'/menu',
       cName : 'nav-links'
   },
   {
       title : 'Services',
-      url :'#',
+      url :'/services',
       cName : 'nav-links'
   },
   {
       title : 'Blog',
-      url :'#',
+      url :'/blog',
       cName : 'nav-links'
   },
   {
       title : 'About',
-      url :'#',
+      url :'/about',
       cName : 'nav-links'
   },
   {
       title : 'Contact',
-      url :'#',
+      url :'/contact',
       cName : 'nav-links'
   },
 ]

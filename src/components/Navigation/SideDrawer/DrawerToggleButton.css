@@ -22,8 +22,11 @@
     background: white;
 }
 
-@media (min-width: 500px) {
+/* @media (min-width: 500px) {
     .toggle-button {
         display:none;
     }
+} */
+.Logoo{
+    width: 150%;
 }
