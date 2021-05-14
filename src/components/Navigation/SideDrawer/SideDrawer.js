@@ -1,9 +1,7 @@
 import React from 'react'
-import MenuItems from '../MenuItems/MenuItems'
+import NavigationItem from '../NavigationItem/NavigationItem'
 import './SideDrawer.css'
-import Aux from '../../hoc/Auxillary/Auxillary'
-import Backdrop from '../../hoc/Backdrop/Backdrop'
-
+import Backdrop from '../../UI/Backdrop/Backdrop'
 
 const SideDrawer = (props) => {
     let attachedClasses = ['side-drawer','Close'];
@@ -12,11 +10,11 @@ const SideDrawer = (props) => {
     }
 
     return(
-        <Aux >
+        <React.Fragment>
             <Backdrop show={props.open} clicked={props.closed} />
             <nav className={attachedClasses.join(' ')}>
                 <ul>
-                            {MenuItems.map((items ) => {
+                            {NavigationItem.map((items ) => {
                                 return (
                                     <li key={items.title}> 
                                         <a href={items.url} >
@@ -28,7 +26,7 @@ const SideDrawer = (props) => {
                             
                 </ul>
             </nav>
-        </Aux>
+        </React.Fragment>
     )
 
   

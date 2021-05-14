@@ -1,6 +1,6 @@
 import React from "react";
-import MenuItems from "../MenuItems/MenuItems";
-import "../Toolbar/Navbar.css";
+import NavigationItem from "../NavigationItem/NavigationItem";
+import "../Toolbar/Toolbar.css";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 import { Link } from "react-router-dom";
 
@@ -14,7 +14,7 @@ const Toolbar = () => {
             {/* <img alt="logo" src={PizzaLogo} className="Logo" /> */}
           </h1>
           <ul className="nav-menu">
-            {MenuItems.map((items) => {
+            {NavigationItem.map((items) => {
               return (
                 <li key={items.title}>
                   <Link

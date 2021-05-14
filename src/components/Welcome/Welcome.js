@@ -1,6 +1,6 @@
 import React from 'react'
-import './Page.css'
-import pizza1 from '../../assets/pizza1.jpg'
+import './Welcome.css'
+import pizza1 from '../../assets/images/pizza1.jpg'
 
 function Page() {
     return (

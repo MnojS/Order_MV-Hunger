@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
-import Home from "./components/Home/Home";
+import Home from "./containers/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Toolbar from "./components/Navigation/Toolbar/Toolbar";
-import Menu from "./components/Menu/Menu.js";
+import Menu from "./containers/Menu/Menu";
 
 class App extends Component {
   render() {

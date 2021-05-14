@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./DrawerToggleButton.css";
-import PizzaLogo from "../../../assets/PizzaLogo.png";
+import PizzaLogo from "../../../assets/images/PizzaLogo.png";
 import SideDrawer from "./SideDrawer";
 
 const DrawerToggleButton = () => {

@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import './Cart.css'
+import './MediaCard.css'
 
 const useStyles = makeStyles({
   root: {
@@ -17,7 +17,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MediaCard() {
+const MediaCard = () => {
   const classes = useStyles();
 
   return (
@@ -40,3 +40,5 @@ export default function MediaCard() {
     </Card>
   );
 }
+
+export default MediaCard;
