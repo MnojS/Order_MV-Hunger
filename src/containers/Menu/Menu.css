@@ -1,7 +1,12 @@
 .container{
-background-color: wheat;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
+    padding: 15px;
+    margin-top: 50px;
+    /* background-color: wheat; */
+    background: url('../../assets/images/background.jpg') center;
+    background-size: cover;
+    /* display: flex; */
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
 }

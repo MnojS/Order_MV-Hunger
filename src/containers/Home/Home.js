@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Carousel from "../../components/Carousel/Carousel"
-import MediaCard from "../../components/Cart/MediaCard";
+import MediaCard from "../../components/Card/MediaCard";
 import Welcome from "../../components/Welcome/Welcome";
 
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
       <Carousel />
       <Welcome />
       <MediaCard />
-    </React.Fragment>
+    </React.Fragment>  
   );
 }
 

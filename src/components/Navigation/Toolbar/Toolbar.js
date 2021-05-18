@@ -31,6 +31,7 @@ const Toolbar = () => {
                 </li>
               );
             })}
+            <img  />
           </ul>
         </div>
       </nav>

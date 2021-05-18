@@ -1,0 +1,9 @@
+.menuTitle{
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 50px ;
+    color: rgb(235, 131, 72);
+    font-size: 80px;
+}
