@@ -24,6 +24,7 @@ const Toolbar = () => {
                       padding: "0.5rem 1rem",
                       fontSize: "17px",
                     }}
+                    className={items.cName}
                   >
                     {items.title}
                   </Link>

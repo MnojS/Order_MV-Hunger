@@ -1,0 +1,27 @@
+.MenuAbout {
+    background-color: black;
+    display: block;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -50px;
+}
+
+.text {
+    
+    font-size: 30px;
+    padding: 100px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+ 
+}
+.MenuAbout .text span{
+    color: rgb(231, 175, 71);
+    font-size: 45px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: lighter;
+}

@@ -32,10 +32,9 @@ a:active,
 a.active{
 
     /* background-color: #12959e44; */
+    color: rgb(253, 223, 54);
     
-    color: rgb(167, 145, 24);
-    
-    border-bottom: 4px solid rgb(168, 154, 73);
+    /* border-bottom: 4px solid rgb(168, 154, 73); */
 }
 
 .side-drawer ul {
