@@ -1,20 +1,8 @@
 .container{
-<<<<<<< HEAD
-    padding: 15px;
-    margin-top: 50px;
-    background-color: #c02b2ba2;
-    /* background: url('../../assets/images/background.jpg') center; */
-=======
     
     background: url('../../assets/images/background.jpg') center;
->>>>>>> 98bda8a348d48ed5dd034a8e407511c52a0e3934
     background-size: cover;
     color: aliceblue;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-    /* height: 100vh; */
 }
-=======
-}
->>>>>>> 98bda8a348d48ed5dd034a8e407511c52a0e3934

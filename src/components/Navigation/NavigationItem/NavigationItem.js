@@ -1,5 +1,3 @@
-import cartIcon from '../../../assets/svg/shopping-cart-solid.svg'
-
 const NavigationItem= [
   {
     title: "Home",
@@ -31,8 +29,5 @@ const NavigationItem= [
     url: "/contact",
     cName: "nav-links",
   },
-  {
-    imge:{cartIcon}
-  }
 ];
 export default NavigationItem;

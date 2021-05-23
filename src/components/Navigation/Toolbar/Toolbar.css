@@ -1,6 +1,5 @@
 .NavbarItems{
-    /* border: 1px solid white; */
-    font-family: 'Newsreader', serif;
+    font-family: 'Pangolin', cursive;
     background-color: rgba(17, 15, 15, 0.993);
     margin: 10px 0;
     box-sizing: border-box;
@@ -10,7 +9,6 @@
     width: 100%;
 }
 .Toolbar {
-    /* border: 1px solid white; */
     height: 59px;
     width: 100%;
     position: fixed;
@@ -36,7 +34,6 @@
    text-decoration: none;
    width: 100%;
    display: block;
-   
 }
 .nav-links{
     color: aliceblue;
@@ -44,8 +41,14 @@
     padding: 0.5rem 1rem;
     font-size: 17px;
 }
-.cartIcon{
-    background-color: aliceblue;
+/* .nav-menu:hover{
+
+    color: rgb(167, 145, 24);
+    border-bottom: 1px solid rgb(168, 154, 73);
+} */
+
+li{
+    padding: 10px;
 }
 
 @media(min-width: 500px) {
@@ -59,12 +62,17 @@
         font-size: 15px;
         width: auto;
     }
+    .navbar-logo{
+        color: white;
+        justify-self: start;
+        cursor: pointer;
+        margin-left: 0.5rem;
+    }
     .nav-menu{
         display: grid;
-        grid-template-columns: repeat(7,auto);
+        grid-template-columns: repeat(6,auto);
         grid-gap: 10px;
         list-style: none;
-        margin-top: 30px;
         text-align: center;
         width: 70vw;
         justify-content: end;
@@ -77,15 +85,20 @@
         font-size: 17px;
         height: 100%;
     }
+    .nav-links:hover{
+    
+        color: rgb(238, 217, 95);
+        transition: 0.3s ease all;
+        border-bottom: 0px solid rgb(168, 154, 73);
+    }
     .Logo{
         width: 12%;
     }
 
 }
 
-
 @media (max-width: 499px) {
     .DesktopOnly {
         display: none;
     }
-}
+} 
