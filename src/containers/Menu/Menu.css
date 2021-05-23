@@ -1,0 +1,8 @@
+.container{
+    
+    background: url('../../assets/images/background.jpg') center;
+    background-size: cover;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
