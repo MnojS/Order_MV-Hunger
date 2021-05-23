@@ -5,7 +5,7 @@ import Box from '@material-ui/core/Box'
 
 function Footer() {
 	return (
-		<footer style={{fontFamily:"Pangolin, cursive"}}>
+		<footer >
 			<Box 
 				bgcolor='rgba(17, 15, 15, 0.993)' 
 				color='white' 
