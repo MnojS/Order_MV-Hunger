@@ -1,0 +1,7 @@
+.AddCart{
+    display: grid;
+    padding: 0px;
+    /* border: 1px solid black; */
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 5px;
+}

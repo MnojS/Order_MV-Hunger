@@ -1,9 +1,9 @@
 .menuTitle{
-    font-family: 'Pangolin', cursive;
-    text-align: center;
+    /* font-family: 'Pangolin', cursive; */
+    text-align: left;
     width: 100%;
     padding: 2px;
-    margin-bottom: 50px ;
-    color: rgb(235, 131, 72);
-    font-size: 80px;
+    /* margin-bottom: 50px ; */
+    color: rgb(31, 29, 28);
+    font-size: 50px;
 }

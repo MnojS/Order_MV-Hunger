@@ -52,3 +52,13 @@
     opacity: 1.0;
     box-shadow: 2px 0px 120px rgb(22, 19, 19);
 }
+@media(max-width: 500px){
+    .Order{
+        font-family: 'Pangolin', cursive;
+        display: grid;
+        /* border: 1px solid black; */
+        grid-template-columns: repeat(1,auto);
+        grid-gap: 25px;
+        text-align: left;
+    }
+}

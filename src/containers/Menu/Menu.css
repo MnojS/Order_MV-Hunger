@@ -1,8 +1,8 @@
 .container{
     padding: 15px;
     margin-top: 50px;
-    /* background-color: wheat; */
-    background: url('../../assets/images/background.jpg') center;
+    background-color: #c02b2ba2;
+    /* background: url('../../assets/images/background.jpg') center; */
     background-size: cover;
     /* display: flex; */
     color: aliceblue;

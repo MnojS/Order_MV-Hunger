@@ -4,7 +4,7 @@ import './Title.css'
 function Title() {
     return (
         <div className="menuTitle" >
-            MV-HUNGER
+            MV-Hunger 
         </div>
     )
 }
