@@ -2,6 +2,7 @@ import React from 'react'
 import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
 import Box from '@material-ui/core/Box'
+import Icon from '../../assets/png/MVHunger.png'
 
 function Footer() {
 	return (
@@ -65,12 +66,18 @@ function Footer() {
 								</p>
 							</Box>
 						</Grid>
+						<Grid item sm={1}>
+							<Box  fontWeight='bold' paddingBottom='2px'> 
+								<img src={Icon} alt="" width="300px"/> 
+							</Box>
+						</Grid>
 					</Grid>
 					<Box textAlign='center' pt={{xs: 5, sm:10}} pb={{xs:5,sm:0}}>
 						MV Hunger @reg; {new Date().getFullYear()}
 					</Box>
 				</Container>
 			</Box>
+			
 		</footer>
 	)
 }
