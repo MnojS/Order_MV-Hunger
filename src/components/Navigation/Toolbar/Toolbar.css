@@ -50,6 +50,11 @@
 li{
     padding: 10px;
 }
+.ToolbarActive.hover,
+.ToolbarActive.active,
+.ToolbarActive.active{
+    color: orange;
+}
 
 @media(min-width: 500px) {
     .NavbarItems{

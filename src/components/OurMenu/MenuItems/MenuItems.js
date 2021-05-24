@@ -155,7 +155,7 @@ function MenuItems() {
                    (items) => {
                        return (
                            <div key={items.id} className="cardMenu" style={{maxWidth:"300px" }}>
-                                <Card className={"root"} style={{color:"white" , backgroundColor:"black" , cursor:"pointer"}} >
+                                <Card className={"root"} style={{color:"white" , backgroundColor:"black" , cursor:"pointer" ,  }} >
                                     <CardHeader 
                                         title={items.title}
                                     />

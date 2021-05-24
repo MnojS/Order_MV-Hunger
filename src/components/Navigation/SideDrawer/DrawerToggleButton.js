@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./DrawerToggleButton.css";
 import PizzaLogo from "../../../assets/images/PizzaLogo.png";
+import ToolbarLogo from '../../../assets/png/MVHunger.png'
 import SideDrawer from "./SideDrawer";
 
 const DrawerToggleButton = () => {
@@ -17,7 +18,7 @@ const DrawerToggleButton = () => {
   return (
     <React.Fragment>
       <button className="toggle-button" onClick={drawerToggleClickHandler}>
-        <img alt="logo" src={PizzaLogo} className="Logoo" />
+        <img alt="logo" src={ToolbarLogo} className="Logoo" />
       </button>
       {window.innerWidth <= 500 ? (
         <SideDrawer open={showSidebar} closed={sideDrawerClosedHandler} />

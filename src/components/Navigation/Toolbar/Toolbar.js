@@ -2,7 +2,7 @@ import React from "react";
 import NavigationItem from "../NavigationItem/NavigationItem";
 import "../Toolbar/Toolbar.css";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Toolbar = () => {
   return (
@@ -16,8 +16,10 @@ const Toolbar = () => {
             {NavigationItem.map((items) => {
               return (
                 <li key={items.title}>
-                  <Link
+                  <NavLink
                     to={items.url}
+                    exact
+                    activeClassName="ToolbarActive"
                     activeStyle={{
                       color: "aliceblue",
                       textDecoration: "none",
@@ -27,11 +29,11 @@ const Toolbar = () => {
                     className={items.cName}
                   >
                     {items.title}
-                  </Link>
+                  </NavLink>
                 </li>
               );
             })}
-            <img  />
+          
           </ul>
         </div>
       </nav>
