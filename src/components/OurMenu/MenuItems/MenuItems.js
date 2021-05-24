@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
@@ -27,6 +27,7 @@ const useStyles = makeStyles(() => ({
 function MenuItems() {
 
     const classes = useStyles();
+    const [count , setCount] = useState(0);
 
     const menus = [
         {
@@ -168,7 +169,10 @@ function MenuItems() {
                                         A perfect party dish and a fun meal to cook together with your
                                         guests. <br /> <hr />
                                         <span><h4 >Price : {items.price} $</h4></span>
-                                        <span>Quantity : <Button variant="outlined" color="default" style={{color:"white" , }}>-</Button> 2$ <Button variant="outlined" color="default" style={{color:"white" , }}>+</Button> </span> 
+                                        <span>Quantity : 
+                                            <Button onClick={ () => setCount(count - 1) }  variant="outlined" color="default" style={{color:"white" , }}>-</Button> 
+                                            {count} 
+                                            <Button onClick={ () => setCount(count + 1) } variant="outlined" color="default" style={{color:"white" , }}>+</Button> </span> 
                                         </Typography>
                                     </CardContent>
                                         <Button  variant="text" color="secondary" style={{marginLeft:"100px" , color:"orange"}}>
@@ -186,5 +190,4 @@ function MenuItems() {
         </div>
     )
 }
-
 export default MenuItems
