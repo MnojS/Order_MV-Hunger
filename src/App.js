@@ -5,6 +5,9 @@ import Footer from "./components/Footer/Footer";
 import Toolbar from "./components/Navigation/Toolbar/Toolbar";
 import Menu from "./containers/Menu/Menu";
 import Services from "./containers/Services/Services";
+import Blog from "./containers/Blog/Blog";
+import Contact from "./containers/Contact/Contact";
+
 
 class App extends Component {
   render() {
@@ -14,9 +17,9 @@ class App extends Component {
           <Switch>
             <Route path="/menu" component={Menu} />
             <Route path="/services" component={Services} />
-            <Route path="/blog" component={Menu} />
+            <Route path="/blog" component={Blog} />
             <Route path="/about" component={Menu} />
-            <Route path="/contact" component={Menu} />
+            <Route path="/contact" component={Contact} />
             <Route exact path="/" component={Home} />
           </Switch>
         <Footer />

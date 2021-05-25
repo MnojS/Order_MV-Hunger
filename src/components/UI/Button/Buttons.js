@@ -7,7 +7,7 @@ function Buttons() {
         <div>
              <ButtonGroup className="buttonGroup">
                 <Button 
-                    style={{fontSize:"20px" , fontFamily:"Pangolin, cursive"}}
+                    style={{fontSize:"20px" , fontFamily:"Pangolin"}}
                     size="large"
                     variant="contained"
                     color="secondary"
@@ -15,7 +15,7 @@ function Buttons() {
                 </Button>
                 <Button 
                     size="large"
-                    style={{fontSize:"20px",fontFamily:"Pangolin, cursive" }}
+                    style={{fontSize:"20px",fontFamily:"Pangolin" }}
                     variant="outlined"
                     color="inherit"
                     >View Menu

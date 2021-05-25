@@ -12,7 +12,7 @@ function carousel() {
                         <img alt="home" src={bg_1} className={"homePic"} />
                         <div className="Quote">
                         <h3>Delicious</h3>
-                        <h1>THERE'S NO BETTER FEELING IN THE WORLD THAN <br /> A WARM PIZZA BOX ON YOUR LAP</h1>
+                        <h1>There's no better feeling in the world than<br /> a warm Pizza Box on your lap</h1>
                         <h2>you'll have your <span className="orderSpan">Order</span> in No-Time</h2>
                         <Buttons className="buttonGroup" />
                         </div>
@@ -21,7 +21,7 @@ function carousel() {
                         <img src={bg_2} alt="home" className={"homePic"} />
                         <div className="Quote">
                         <h3>Delightful</h3>
-                        <h1>EVERYONE LIKES A BURGER NOW AND THEN , AND <br /> THAT'S ABSOLUTELY FINE </h1>
+                        <h1>Everyone likes a burger now and then , and<br /> That's absolutely fine ! </h1>
                         <h2>you'll have your <span className="orderSpan">Order</span> in No-Time</h2>
                         <Buttons className="buttonGroup" />
                         </div>

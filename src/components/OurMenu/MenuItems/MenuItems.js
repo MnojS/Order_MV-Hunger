@@ -128,7 +128,7 @@ function MenuItems() {
     return (
         <div className="MenuItems">
            {menus.map((items) => {
-               return <ItemCart items={items} />
+               return <ItemCart items={items} price={items.price} />
            })}
         </div>
     )

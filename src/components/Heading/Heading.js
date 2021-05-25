@@ -7,7 +7,7 @@ import RestaurantMenuIcon from '@material-ui/icons/RestaurantMenu'
 
 const Heading = (props) =>  {
     return (
-        <React.Fragment>
+        <React.Fragment> 
         <div className="container">
             <img src={ingredient} alt="Snow" style={{width:"100%"}}></img>
             <div className="centered">{props.title}

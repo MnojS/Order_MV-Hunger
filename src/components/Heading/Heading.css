@@ -20,3 +20,6 @@
     position: relative;
     right:35px;
   }
+  @media(max-width: 500px){
+    .Heading{}
+  }

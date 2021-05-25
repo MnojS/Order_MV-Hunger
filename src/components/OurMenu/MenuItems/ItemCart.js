@@ -22,9 +22,20 @@ const useStyles = makeStyles(() => ({
   
   }));
 
-function ItemCart({items}) {
+function ItemCart({items }) {
+    
     const classes = useStyles();
     const [count , setCount] = useState(0);
+    const [price , setPrice] = useState(items.price);
+
+    let clickAddHandler = () => {
+        setCount(count + 1)
+        setPrice(items.price= items.price + items.price)
+    }
+    let clickAReduceHandler = () => {
+        setCount(count - 1)
+        setPrice(items.price= items.price - items.price)
+    }
     return (
                <div key={items.id} className="cardMenu" style={{maxWidth:"300px" }}>
                     <Card 
@@ -43,16 +54,16 @@ function ItemCart({items}) {
                             <Typography variant="body2" color="" component="p">
                             A perfect party dish and a fun meal to cook together with your
                             guests. <br /> <hr />
-                            <span><h4 >Price : {items.price} $</h4></span>
+                            <span  ><h4  >Price : ${items.price} </h4></span>
                             <span>Quantity : 
                                 <Button 
-                                    onClick={ () => setCount(count - 1) }  
+                                    onClick={ () => clickAReduceHandler() }  
                                     variant="outlined" 
                                     color="default" 
                                     style={{color:"white" , }}>-</Button> 
                                 {count} 
                                 <Button 
-                                    onClick={ () => setCount(count + 1) } 
+                                    onClick={ () => clickAddHandler() } 
                                     variant="outlined" 
                                     color="default" 
                                     style={{color:"white" , }}>+</Button> 
