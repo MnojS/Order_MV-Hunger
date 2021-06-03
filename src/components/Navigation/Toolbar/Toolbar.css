@@ -60,7 +60,7 @@ li{
     .NavbarItems{
         background-color: rgba(17, 15, 15, 0.993);
         /* background: linear-gradient(90deg , rgba(10, 10, 10, 0.747) , rgb(13, 14, 14) 100%); */
-        height: 60px;
+        height: 55px;
         display: flex;
         justify-content: center;
         align-items: center;

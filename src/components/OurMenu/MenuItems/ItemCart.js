@@ -51,7 +51,7 @@ function ItemCart({items }) {
                             image={items.src}
                         />
                         <CardContent>
-                            <Typography variant="body2" color="" component="p">
+                            <Typography variant="body2" color="" component="h2">
                             A perfect party dish and a fun meal to cook together with your
                             guests. <br /> <hr />
                             <span  ><h4  >Price : ${items.price} </h4></span>

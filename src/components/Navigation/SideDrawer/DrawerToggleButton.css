@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-around;
     height: 24px;
-    width: 36px;
+    width: 100px;
     background: transparent;
     border: none;
     padding: 0;
@@ -29,5 +29,5 @@
 } */
 .Logoo{
     margin-top: 1px;
-    width:410%;
+    width:150%;
 }

@@ -1,12 +1,14 @@
 .MenuItems{
     display: grid;
     padding: 0px;
+    background-color:black ;
     /* border: 1px solid black; */
     grid-template-columns: repeat(4,auto);
     grid-gap: 5px;
+    margin-bottom: -25px;
 }
 .root{
-    border: 1px solid rgba(88, 85, 85, 0.171);
+    border: 1px groove rgba(88, 85, 85, 0.438);
     box-shadow: 0px 0px 15px rgba(37, 36, 36, 0.877);
     padding: 2px;
     transition: .4s all ease-in-out;
@@ -20,7 +22,7 @@
 
 .cardMenu{
     /* border: 1px solid whitesmoke; */
-    margin: 20px;
+    margin: 30px;
 }
 @media(max-width: 500px){
     .MenuItems{

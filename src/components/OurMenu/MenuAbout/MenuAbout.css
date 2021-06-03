@@ -1,4 +1,5 @@
 .MenuAbout {
+    border: 1px solid green;
     background-color: black;
     display: block;
     height: 50vh;
@@ -8,7 +9,7 @@
 }
 
 .text {
-    
+    /* display: flex; */
     font-size: 30px;
     padding: 100px;
     font-weight: bold;
@@ -21,8 +22,9 @@
     font-size: 45px;
 }
 
-p{
-    font-size: 20px;
+.MenuAbout .text p{
+    color: aliceblue;
+    font-size: 15px;
     font-weight: lighter;
 }
 @media(max-width: 500px){
@@ -31,8 +33,27 @@ p{
         display: block;
         height: 60vh;
         /* text-align: center; */
-        width: 120%;
-        margin-left: -35px;
-        margin-bottom: -50px;
+        width: 100%;
+        /* margin-left: -35px;
+        margin-bottom: -50px; */
     }  
+    .text {
+        /* display: flex; */
+        font-size: 30px;
+        padding: 10px;
+        font-weight: bold;
+        text-align: left;
+        /* justify-content: center; */
+     
+    }
+    .MenuAbout .text span{
+        color: rgb(231, 175, 71);
+        font-size: 45px;
+    }
+    
+    .MenuAbout .text p{
+        color: aliceblue;
+        font-size: 15px;
+        font-weight: lighter;
+    }
 }

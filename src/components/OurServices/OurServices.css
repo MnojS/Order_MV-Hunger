@@ -1,5 +1,5 @@
 .OurServices{
-    background-image:url("../../assets/images/bg-yellow.jpeg") ;
+    background-image:url("../../assets/images/bg-yellow.png") ;
     background-repeat: repeat;
     display: block;
     height: 80vh;
@@ -80,5 +80,14 @@
 .icons:hover{
     transform: rotate(360deg);
     transition: all 1s ease;
+    
+}
+@media(max-width: 500px){
+    .OurServices{
+        display: block;
+        height: 80vh;
+        width:100%;
+        overflow: scroll;
+    }
     
 }
