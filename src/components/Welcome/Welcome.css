@@ -1,0 +1,32 @@
+.page{
+    font-family: 'Pangolin', cursive;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    color: blanchedalmond;
+    background-image: url("../../assets//images/bg-MenuAbout.jpg");
+    height: 70vh;
+}
+.pageImage{
+    width: 100%;
+    margin: 20px;
+    height: 60vh;
+}
+.page p{
+    padding:15px;
+    margin: 10px;
+}
+@media(max-width: 999px){
+    .page{
+        display: inline-block;
+        text-align: center;
+        color: blanchedalmond;
+        padding: 15px;
+        background-color: black;
+}
+    .pageImage{
+        width: 100%;
+        opacity: 0.95;
+}
+}

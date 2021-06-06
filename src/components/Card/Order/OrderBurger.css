@@ -1,0 +1,54 @@
+.Order{
+    font-family: 'Pangolin', cursive;
+    display: grid;
+    /* border: 1px solid black; */
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 25px;
+    text-align: left;
+}
+.pizzaOrder{
+    padding: 5px;
+    
+}
+.Order .burgerOrder .addCartButton{
+    font-size: larger;
+    width: 250px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgba(105, 92, 98, 0.651);
+    color: aliceblue;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Pangolin', cursive;
+    transition: 0.3s all ease;
+}
+.Order .burgerOrder .addCartButton:hover{
+    background-color: rgba(214, 22, 102, 0.877);
+    box-shadow: 2px 0px 120px rgb(20, 17, 17),
+                5px 0px 20px rgb(20, 17, 17);
+}
+.price{
+    font-size: larger;
+    font-weight: bolder;
+}
+.price:hover{
+    color: rgba(196, 14, 105, 0.829);
+    cursor: pointer;
+}
+.title{
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bold;
+    color: bisque;
+}
+/* Image  */
+.orderMenu{
+    margin-top: 10px;
+    opacity: .8;
+    border-radius: 35px;
+    transition: .3s all ease;
+}
+.orderMenu:hover{
+    opacity: 1.0;
+    box-shadow: 2px 0px 120px rgb(22, 19, 19);
+}

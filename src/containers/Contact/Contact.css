@@ -1,0 +1,7 @@
+.Contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../assets/images/bg-MenuAbout.jpg");
+}

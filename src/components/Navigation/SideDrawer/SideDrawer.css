@@ -1,0 +1,58 @@
+.side-drawer {
+    height: 100%;
+    background-color: black;
+    color:white;
+    box-shadow: 2px 0px 5px rgb(0, 0, 0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    max-width: 70%;
+    z-index:200;
+    transform: translateX(-100);
+    transition: transform 0.3s ease-out;
+    padding: 32px 16px;
+    box-sizing: border-box;
+
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 500px) {
+    .side-drawer {
+        display:none;
+    }
+}
+
+a:hover,
+a:active,
+a.active{
+
+    /* background-color: #12959e44; */
+    color: rgb(253, 223, 54);
+    
+    /* border-bottom: 4px solid rgb(168, 154, 73); */
+}
+
+.side-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-drawer li{
+    margin: 0.5rem 0;
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}
