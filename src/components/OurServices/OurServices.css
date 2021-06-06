@@ -6,7 +6,7 @@
     width:100%;
 }
 
-.container{
+.ServicesContainers{
     display: flex;
     flex-direction: column;
     font-family: "Poppins", Arial, sans-serif;

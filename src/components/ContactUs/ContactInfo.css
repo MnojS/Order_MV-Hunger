@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.ContactInfo{
+    color:rgb(241, 241, 241);
+    height: 40vh;
+    text-align: left;
+    margin-top: -16%;
+    margin-left: 18%;
+    font-family: "Poppins",Arial,sans-serif;
+}
+
+table{
+    margin: 10px;
+}
+
+th{
+    padding:20px;
+}
+.ContactInfo p{
+    color: grey;
+}
+.ContactInfo a{
+    color: #fac564;
+    font-size: 15px;;
+}
+.ContactInfo h4{
+    font-weight: 400;
+    font-family: "Josefin Sans",Arial,sans-serif;
+    font-size: 1.4rem;
+    padding:0%;
+    margin: 0%;
+}
+.ContactInfo span{
+    color: white;
+}

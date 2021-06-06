@@ -6,7 +6,7 @@ import pizzaicon from "../../assets/png/pizza.png"
 const OurServices = () => {
     return (
         <div className="OurServices">
-           <div className="container">
+           <div className="ServicesContainers">
                <h2>OUR SERVICES</h2>
                <p> far away, behind the word mountains, far from the countries<br/>Vokalia and Consonantia, there live the blind texts. </p>
             </div>

@@ -1,3 +1,5 @@
+import "../Toolbar/Toolbar.css"
+import cartImg from "../../../assets/images/cart.png"
 const NavigationItem= [
   {
     title: "Home",
@@ -28,6 +30,14 @@ const NavigationItem= [
     title: "Contact",
     url: "/contact",
     cName: "nav-links",
+  },
+  {
+    
+    title:
+      <img src={cartImg}/>
+    ,
+    url: "/cart",
+    cName: "",
   },
 ];
 export default NavigationItem;

@@ -36,6 +36,7 @@ function ItemCart({items }) {
         setCount(count - 1)
         setPrice(items.price= items.price - items.price)
     }
+    console.log(items);
     return (
                <div key={items.id} className="cardMenu" style={{maxWidth:"300px" }}>
                     <Card 
