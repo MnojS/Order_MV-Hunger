@@ -1,5 +1,5 @@
 .page{
-    font-family: 'Pangolin', cursive;
+    font-family: "Josefin Sans", Arial, sans-serif;
     display: flex;
     justify-self: center;
     align-items: center;
@@ -16,6 +16,7 @@
 .page p{
     padding:15px;
     margin: 10px;
+    font-family: "Poppins", Arial, sans-serif;
 }
 @media(max-width: 999px){
     .page{

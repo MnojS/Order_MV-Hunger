@@ -1,0 +1,43 @@
+.Awards {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    background-image: url("../../assets/WEBP/AwardsBg.webp");
+}
+
+.AwardsContainer{
+    height: 70vh;
+    width: 100%;
+    background: black;
+    opacity: .8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Boxes{
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Boxes .img {
+   border: 1px solid #fac564;
+   align-self: center;
+    height:10vh;
+    padding:10px;
+    margin-right: 6rem;
+
+}
+.img h2{
+    color: #fac564;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+.img p{
+    color: white;
+}
+
