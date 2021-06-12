@@ -17,18 +17,18 @@ const NavigationItem= [
     cName: "nav-links",
   },
   {
-    title: "Blog",
-    url: "/blog",
+    title: "Contact",
+    url: "/contact",
     cName: "nav-links",
   },
   {
-    title: "About",
+    title: "Build",
     url: "/about",
     cName: "nav-links",
   },
   {
-    title: "Contact",
-    url: "/contact",
+    title: "Sign In",
+    url: "/blog",
     cName: "nav-links",
   },
   {

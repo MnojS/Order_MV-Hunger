@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import Link from '@material-ui/core/Link';
@@ -10,7 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import MV from '../../assets/png/MVHunger.png'
-import './Blog.css'
+import './SignIn.css'
 
 
 
@@ -28,12 +27,11 @@ const useStyles = makeStyles((theme) => ({
   
 }));
 
-const SignUp = () => {
+const SignIn = () => {
   const classes = useStyles();
 
   return (
       <div className="SignIn">
-          
         <Container component="main" maxWidth="xs">
         <div className={classes.paper}>
             <img src={MV} width="300px" alt="logo" />
@@ -43,28 +41,6 @@ const SignUp = () => {
             <form className={classes.form}>
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={6} >
-                <input
-                    className="InputField"
-                    autoComplete="fname"
-                    name="firstName"
-                    placeholder="First Name*"
-                    required
-                    fullWidth
-                    id="firstName"
-                    label="First Name"
-                />
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                <input
-                    className="InputField"
-                    autoComplete="lname"
-                    name="lasttName"
-                    placeholder="Last Name*"
-                    required
-                    fullWidth
-                    id="lastname"
-                    label="Last Name"
-                />
                 </Grid>
                 <Grid item xs={12}>
                 <input
@@ -126,7 +102,6 @@ const SignUp = () => {
         </Box>
         </Container>
     </div>
-    
   );
 }
-export default SignUp
+export default SignIn

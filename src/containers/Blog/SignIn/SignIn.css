@@ -14,10 +14,7 @@
     color: rgb(154, 164, 172);
     background: transparent;
     outline: none;
-    /* border-top: transparent; */
-    Border-bottom: 1px solid #d8b36dc0;
-    /* border: transparent; */
-    /* box-shadow: 0px 2px 3px rgb(83, 82, 82); */
+    Border-bottom: 0.4px solid #fac564;
 }
 .signUP{
     color:#fac564;
