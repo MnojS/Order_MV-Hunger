@@ -7,7 +7,8 @@ import Menu from "./containers/Menu/Menu";
 import Services from "./containers/Services/Services";
 import Blog from "./containers/Blog/Blog";
 import Contact from "./containers/Contact/Contact";
-import MyCart from "./containers/MyCart/MyCart"
+import MyCart from "./containers/MyCart/MyCart";
+import About from './containers/About/About'
 
 
 class App extends Component {
@@ -19,7 +20,7 @@ class App extends Component {
             <Route path="/menu" component={Menu} />
             <Route path="/services" component={Services} />
             <Route path="/blog" component={Blog} />
-            <Route path="/about" />
+            <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact} />
             <Route path="/cart" component={MyCart}/>
             <Route exact path="/" component={Home} />
