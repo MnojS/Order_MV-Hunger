@@ -1,15 +1,8 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
-import Link from '@material-ui/core/Link';
-import Grid from '@material-ui/core/Grid';
-import Box from '@material-ui/core/Box';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
+import {Button , FormControlLabel,Checkbox ,Link ,Grid , Box} from '@material-ui/core';
+import {Typography , Container , makeStyles } from '@material-ui/core';
 import MV from '../../assets/png/MVHunger.png'
-import './SignIn.css'
+import './SignUp.css'
 
 
 
@@ -27,20 +20,43 @@ const useStyles = makeStyles((theme) => ({
   
 }));
 
-const SignIn = () => {
+const SignUp = () => {
   const classes = useStyles();
 
   return (
       <div className="SignIn">
+          
         <Container component="main" maxWidth="xs">
         <div className={classes.paper}>
             <img src={MV} width="300px" alt="logo" />
             <Typography component="h1" variant="h5" className="signUP">
-            Sign up
+            Sign-up
             </Typography>
             <form className={classes.form}>
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={6} >
+                <input
+                    className="InputField"
+                    autoComplete="fname"
+                    name="firstName"
+                    placeholder="First Name*"
+                    required
+                    fullWidth
+                    id="firstName"
+                    label="First Name"
+                />
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                <input
+                    className="InputField"
+                    autoComplete="lname"
+                    name="lasttName"
+                    placeholder="Last Name*"
+                    required
+                    fullWidth
+                    id="lastname"
+                    label="Last Name"
+                />
                 </Grid>
                 <Grid item xs={12}>
                 <input
@@ -85,7 +101,7 @@ const SignIn = () => {
             </Button>
             <Grid container justify="flex-end">
                 <Grid item>
-                <Link href="#" variant="body2">
+                <Link href="sign-in" variant="body2">
                     Already have an account? Sign in
                 </Link>
                 </Grid>
@@ -102,6 +118,7 @@ const SignIn = () => {
         </Box>
         </Container>
     </div>
+    
   );
 }
-export default SignIn
+export default SignUp

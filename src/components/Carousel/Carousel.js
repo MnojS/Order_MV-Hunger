@@ -7,14 +7,14 @@ import Carousel from "react-material-ui-carousel"
 function carousel() {
     return (
         <div className="home">
-            <Carousel autoPlay={false} animation="fade">
+            <Carousel autoPlay={true} animation="fade">
                     <div>
                         <img alt="home" src={bg_1} className={"homePic"} />
                         <div className="Quote">
                         <h3>Delicious</h3>
                         <h1>There's no better feeling in the world than<br /> a warm Pizza Box on your lap</h1>
                         <h2>you'll have your <span className="orderSpan">Order</span> in No-Time</h2>
-                        <Buttons className="buttonGroup" />
+                        <Buttons  className="buttonGroup" />
                         </div>
                     </div>
                     <div>

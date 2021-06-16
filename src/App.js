@@ -5,10 +5,11 @@ import Footer from "./components/Footer/Footer";
 import Toolbar from "./components/Navigation/Toolbar/Toolbar";
 import Menu from "./containers/Menu/Menu";
 import Services from "./containers/Services/Services";
-import Blog from "./containers/Blog/Blog";
 import Contact from "./containers/Contact/Contact";
 import MyCart from "./containers/MyCart/MyCart";
-import About from './containers/About/About'
+import About from './containers/About/About';
+import SignUp from "./containers/SignIn/SignUp";
+import SignIn from "./containers/SignIn/SignIn";
 
 
 class App extends Component {
@@ -19,7 +20,8 @@ class App extends Component {
           <Switch>
             <Route path="/menu" component={Menu} />
             <Route path="/services" component={Services} />
-            <Route path="/blog" component={Blog} />
+            <Route path="/sign-up" component={SignUp} />
+            <Route path="/sign-in" component={SignIn} />
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact} />
             <Route path="/cart" component={MyCart}/>

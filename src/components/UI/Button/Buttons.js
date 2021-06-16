@@ -11,6 +11,7 @@ function Buttons() {
                     size="large"
                     variant="contained"
                     color="secondary"
+                    href="\"
                     >Order Now
                 </Button>
                 <Button 
@@ -18,6 +19,7 @@ function Buttons() {
                     style={{fontSize:"20px",fontFamily:"Pangolin" }}
                     variant="outlined"
                     color="inherit"
+                    href="\menu"
                     >View Menu
                 </Button>
             </ButtonGroup>
