@@ -6,19 +6,19 @@
     text-align: center;
     color: blanchedalmond;
     background-image: url("../../assets//images/bg-MenuAbout.jpg");
-    height: 70vh;
+    /* height: 70vh; */
 }
 .pageImage{
     width: 100%;
-    margin: 20px;
-    height: 60vh;
+    /* margin: 20px; */
+    /* height: 60vh; */
 }
 .page p{
     padding:15px;
     margin: 10px;
     font-family: "Poppins", Arial, sans-serif;
 }
-@media(max-width: 999px){
+@media(max-width: 500px){
     .page{
         display: inline-block;
         text-align: center;

@@ -11,24 +11,24 @@ const OurServices = () => {
                <p> far away, behind the word mountains, far from the countries<br/>Vokalia and Consonantia, there live the blind texts. </p>
             </div>
             <div className="media">
-            <div className="icon">
-                <div className="icons" >
-                    <img src={hamicon1} />
-                    
+                <div className="icon">
+                    <div className="icons" >
+                        <img src={hamicon1} />
+                        
+                        
+                    </div>
+                    <div className="icons">
+                        <img src={sccotericon} />
+                        
+                    </div>
+                    <div className="icons">
+                        <img src={pizzaicon} />
+                        
+                        
+                    </div>
                     
                 </div>
-                <div className="icons">
-                    <img src={sccotericon} />
-                    
-                </div>
-                <div className="icons">
-                    <img src={pizzaicon} />
-                    
-                    
-                </div>
-                
             </div>
-        </div>
         <div className="content">
                     <div >
                        

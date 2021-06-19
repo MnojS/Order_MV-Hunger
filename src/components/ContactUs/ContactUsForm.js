@@ -24,7 +24,7 @@ function ContactUsForm() {
                     <input type="email" id='lname' name="email" placeholder="Email"></input>
                     <label for="subject">Message</label>
                     <textarea rows="7" cols="25" id="subject" name="subject" placeholder="Message"></textarea>        
-                    <input type="submit" value="Send Message" ></input>
+                    <input type="submit" value="Send Message" className="sendForm" ></input>
                 </form>
             </div>
         

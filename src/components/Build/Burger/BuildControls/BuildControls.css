@@ -50,3 +50,60 @@
         transform: scale(1);
     }
 }
+@media(max-width: 500px){
+    .BuildControls {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    border: 0px solid wheat;
+    flex-flow: column;
+    align-items: center;
+    color: #e0b965;
+    /* margin: auto; */
+    margin-top: 5%;
+    /* margin-bottom: 10%; */
+    margin-right: 10px;
+    padding: 10px 0;
+}
+
+.OrderButton {
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #966909;
+    color: #966909;
+    font-family: inherit;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 2px #966909; */
+}
+
+.OrderButton:hover, .OrderButton:active {
+    background-color: #6e726867;
+    border: 1px solid #966909;
+    color: #966909;
+}
+
+.OrderButton:disabled {
+    background-color: #6e726867;
+    cursor: not-allowed;
+    color: #ecd7d7;
+}
+
+.OrderButton:not(:disabled) {
+    animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+}

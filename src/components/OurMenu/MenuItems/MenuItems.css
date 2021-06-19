@@ -1,14 +1,14 @@
 .MenuItems{
     display: grid;
-    padding: 0px;
+    /* padding: 0px; */
     background-color:black ;
     /* border: 1px solid black; */
     grid-template-columns: repeat(4,auto);
     grid-gap: 5px;
-    margin-bottom: -25px;
+    /* margin-bottom: 25px; */
 }
 .root{
-    border: 1px groove rgba(88, 85, 85, 0.438);
+    border: 1px solid rgba(88, 85, 85, 0.438);
     box-shadow: 0px 0px 15px rgba(37, 36, 36, 0.877);
     padding: 2px;
     transition: .4s all ease-in-out;
@@ -27,10 +27,84 @@
 @media(max-width: 500px){
     .MenuItems{
         display: grid;
-        padding: 0px;
+        /* padding: 0px; */
         /* border: 1px solid black; */
         grid-template-columns: repeat(1,auto);
         grid-gap: 2px;
+        margin-left: 13%;
+    }
+    .root{
+        border: 1px groove rgba(88, 85, 85, 0.438);
+        box-shadow: 0px 0px 15px rgba(37, 36, 36, 0.877);
+        padding: 2px;
+        transition: .4s all ease-in-out;
     }
     
+    .root:hover,
+    .root:active{
+        box-shadow: 0px 0px 15px rgba(90, 86, 86, 0.726);
+        
+    }
+    
+    .cardMenu{
+        /* border: 1px solid whitesmoke; */
+        margin: 30px;
+    }
+    
+}
+@media(max-width: 500px){
+    .MenuItems{
+        display: grid;
+        /* padding: 0px; */
+        background-color:black ;
+        /* border: 1px solid black; */
+        grid-template-columns: repeat(4,auto);
+        grid-gap: 5px;
+        /* margin-bottom: 25px; */
+    }
+    .root{
+        border: 1px solid rgba(88, 85, 85, 0.438);
+        box-shadow: 0px 0px 15px rgba(37, 36, 36, 0.877);
+        padding: 2px;
+        transition: .4s all ease-in-out;
+    }
+    
+    .root:hover,
+    .root:active{
+        box-shadow: 0px 0px 15px rgba(90, 86, 86, 0.726);
+        
+    }
+    
+    .cardMenu{
+        /* border: 1px solid whitesmoke; */
+        margin: 30px;
+    }
+    @media(max-width: 500px){
+        .MenuItems{
+            display: grid;
+            /* padding: 0px; */
+            /* border: 1px solid black; */
+            grid-template-columns: repeat(1,auto);
+            grid-gap: 2px;
+            margin-left: 1%;
+        }
+        .root{
+            border: 1px groove rgba(88, 85, 85, 0.438);
+            box-shadow: 0px 0px 15px rgba(37, 36, 36, 0.877);
+            padding: 2px;
+            transition: .4s all ease-in-out;
+        }
+        
+        .root:hover,
+        .root:active{
+            box-shadow: 0px 0px 15px rgba(90, 86, 86, 0.726);
+            
+        }
+        
+        .cardMenu{
+            /* border: 1px solid whitesmoke; */
+            margin: 30px;
+        }
+        
+    }
 }

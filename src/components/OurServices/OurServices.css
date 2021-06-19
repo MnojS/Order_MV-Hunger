@@ -2,8 +2,8 @@
     background-image:url("../../assets/images/bg-yellow.png") ;
     background-repeat: repeat;
     display: block;
-    height: 80vh;
-    width:100%;
+    /* height: 80vh; */
+    /* width:100%; */
 }
 
 .ServicesContainers{
@@ -85,9 +85,97 @@
 @media(max-width: 500px){
     .OurServices{
         display: block;
-        height: 80vh;
-        width:100%;
+        /* height: 80vh; */
+        /* width:100%; */
         overflow: scroll;
+    }
+    
+    .ServicesContainers{
+        display: inline-block;
+        color: black;
+        padding-top: 3rem;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0 0 24px;
+    }
+    .ServicesContainers h2{
+        /* align-items:center ; */
+        /* display: flex; */
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .ServicesContainers p{
+        align-items:center ;
+        /* display: flex; */
+        justify-content: center;
+        /* margin-top: 80px; */
+    }
+    .container p{
+        display: flex;
+        font-size: 15px;
+        font-family: Arial;
+        display:inline-block;
+        color: #5c3d03;
+        text-align: center;
+        width: 30rem;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .icon{
+        display: inline-block;
+        height:40vh;
+        /* padding:10px; */
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 80%;
+       
+    
+    }
+    .icons{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 55px;
+        border:1px solid #bf7e06;
+        padding:55px;
+        height:50px;
+        width: 5rem;
+    }
+    .content p{
+        font-size: 15px;
+        display:inline-block;
+        /* width:15rem; */
+        text-align: center;
+        margin: 10px;
+    }
+    .content h4{
+        text-align: center;
+        font-weight: normal;
+    }
+    .icons img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    
+    .media{
+        display: block;
+        margin-top:3rem;
+        padding:20px;
+    }
+    
+    .icons:hover{
+        transform: rotate(360deg);
+        transition: all 1s ease;
+        
     }
     
 }

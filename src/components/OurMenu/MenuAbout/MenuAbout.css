@@ -1,5 +1,5 @@
 .MenuAbout {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     background-color: black;
     display: block;
     height: 50vh;
@@ -32,17 +32,18 @@
         background-color: black;
         display: block;
         height: 60vh;
-        /* text-align: center; */
+        text-align: center;
         width: 100%;
-        /* margin-left: -35px;
+        /* margin-left: 35px;
         margin-bottom: -50px; */
+        margin-bottom: 50px;
     }  
     .text {
         /* display: flex; */
-        font-size: 30px;
+        font-size: 80px;
         padding: 10px;
         font-weight: bold;
-        text-align: left;
+        text-align: center;
         /* justify-content: center; */
      
     }
@@ -53,7 +54,8 @@
     
     .MenuAbout .text p{
         color: aliceblue;
-        font-size: 15px;
+        font-size: 25px;
+        width: 70%;
         font-weight: lighter;
     }
 }

@@ -28,7 +28,7 @@ const NavigationItem= [
   },
   {
     title: "Sign In",
-    url: "/blog",
+    url: "/sign-in",
     cName: "nav-links",
   },
   {

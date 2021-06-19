@@ -21,3 +21,31 @@
   position: relative;
   right:35px;
 }
+@media(max-width: 500px){
+  .Heading {
+    position: relative;
+    text-align: center;
+    color: white;
+    bottom: -2px;
+    width: 100%;
+  }
+  .centered {
+    position: absolute;
+    /* top: 15%; */
+    /* right:90%; */
+    width: 100%;
+    left: -20%;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    /* align-items: center; */
+  }  
+  
+  .Button{
+    top: -10px;
+    margin: 30px;
+    position: relative;
+    right:-12px;
+  }
+}

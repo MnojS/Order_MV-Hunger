@@ -15,7 +15,7 @@
     /* border: 1px solid white; */
     width: 500px;
     height: 490px;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 .buttonGroup{
     margin-top: 35px;
@@ -44,16 +44,16 @@ h1 ,h2{
     font-size: 40px;
     font-weight: 200;
 }
-@media(max-width: 900px){
+@media(max-width: 500px){
     .home{
-        display: flex;
+        /* display: flex; */
         background: url(../../assets/images/background.jpg) center;
         background-size: cover;
         width: 100%;
         height: 100vh;
         color: aliceblue;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center; */
+        /* align-items: center; */
         /* border: 1px solid white; */
     }
     .homePic{
