@@ -21,7 +21,7 @@ const login = (props) => {
             
             <div className="loginContainer">
                 <h1 className="heading">
-                {hasAccount ? (<span>Sign Up</span>): (<span>Sign In</span>)
+                {hasAccount ? (<span>Sign In</span>): (<span>Sign Up</span>)
 } 
                 </h1>
                 <label>Username</label>
