@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import fire from '../../containers/Authentication/Firebase/Fire'
-import Login from '../Login/Login'
+import Home from "../../containers/Home/Home"
+import Login from '../Login/Login'  
 
 function Signin() {
     const [user, setUser] =useState("")
@@ -62,7 +63,8 @@ function Signin() {
     }
 
     const handleLogout = () => {
-        fire.auth.signOut();
+        console.log("LOGOUT");
+        fire.auth().signOut();
     }
 
     const authListner = ()=> {
@@ -79,10 +81,14 @@ function Signin() {
     useEffect(()=>{
         authListner();
     },[])
+
+
     return (
         <div>
+            {user ? (
             
-            <Login 
+            <Home handleLogout={handleLogout} user={user}/>
+                ):(<Login 
                 email={email} 
                 setEmail={setEmail}
                 password={password}
@@ -92,14 +98,11 @@ function Signin() {
                 hasAccount={hasAccount}
                 setHasAccount={setHasAccount}
                 emailError={emailError}
-                passwordError={passwordError}/> 
+                passwordError={passwordError}/> )}
+            
             )
             
-            
-            
-        
-           
-        </div>
+         </div>
     )
 }
 

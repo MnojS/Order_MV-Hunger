@@ -27,11 +27,6 @@ const NavigationItem= [
     cName: "nav-links",
   },
   {
-    title: "Sign In",
-    url: "/sign-in",
-    cName: "nav-links",
-  },
-  {
     
     title:
       <img src={cartImg}/>

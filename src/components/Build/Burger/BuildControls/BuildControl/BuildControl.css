@@ -18,14 +18,14 @@
 
 
 .BuildControl button:disabled {
-    background-color: #AC9980;
-    border: 1px solid #7E7365;
+    background-color: #3a3937;
+    border: 1px solid #5e5b54;
     color: #ccc;
     cursor: default;
 }
 
 .BuildControl button:hover:disabled {
-    background-color: #AC9980;
+    background-color: #302e2c;
     color: #ccc;
     cursor: not-allowed;
 }
@@ -37,7 +37,7 @@
 }
 
 .BuildControl .Less {  
-    background-color: #D39952;
+    background-color: #d38152;
     color: white;
 }
 

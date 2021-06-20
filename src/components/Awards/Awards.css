@@ -42,19 +42,22 @@
 }
 @media(max-width: 500px){
     .Boxes{
-        display:inline-block;   
+        display:inline-block;  
+        box-sizing: border-box;
+        margin-left: 60px;
     }
     .Boxes .img {
-        border: 1px solid #fac564;
-        align-self: center;
-        height:10vh;
-        padding:10px;
+        border: 0px solid #fac564;
+        /* align-self: center; */
+        height:15vh;
+        padding:1px;
+        margin-top: 10px;
         margin-right: 0rem;
      
      }
      .img p{
         color: white;
-        margin: 10px 90px 10px -10px ;
+        margin: -5px 90px 10px -30px ;
     }
     .img h2{
         margin-top: -80px;

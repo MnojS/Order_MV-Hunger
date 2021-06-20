@@ -5,14 +5,18 @@ import MediaCard from "../../components/Card/MediaCard";
 import Welcome from "../../components/Welcome/Welcome";
 import OurServices from "../../components/OurServices/OurServices";
 import Awards from "../../components/Awards/Awards";
+import {Link} from 'react-router-dom'
 
-function Home() {
+function Home(props) {
   return (
+
     <React.Fragment>
+      {props.user? ( <div className="SignOutButton"><Link  onClick={props.handleLogout}>Logout</Link></div>):
+        (<div className="SignInButton"><Link to="/sign-in" >SignIn</Link></div>) }
       <Carousel />
       <OurServices />
       <Welcome />
-      <Awards />
+      <Awards /> 
       <MediaCard />
       
     </React.Fragment>  

@@ -5,8 +5,21 @@
     overflow: scroll;
     text-align: center;
     font-weight: bold;
+    margin-top: 3%;
     font-size: 1.2rem;
 }
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
 
 @media (max-width: 500px) and (min-height: 400px) {
     .Burger {
@@ -16,6 +29,17 @@
         width: 350px;
         height: 300px;
     }
+    ::-webkit-scrollbar-track-piece:start {
+        /* Select the top half (or left half) or scrollbar track individually */
+     }
+     
+     ::-webkit-scrollbar-thumb:window-inactive {
+        /* Select the thumb when the browser window isn't in focus */
+     }
+     
+     ::-webkit-scrollbar-button:horizontal:decrement:hover {
+        /* Select the down or left scroll button when it's being hovered by the mouse */
+     }
 }
 
 @media (min-width: 500px) and (min-height: 401px) {

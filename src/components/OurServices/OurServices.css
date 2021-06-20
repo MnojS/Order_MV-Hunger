@@ -2,7 +2,7 @@
     background-image:url("../../assets/images/bg-yellow.png") ;
     background-repeat: repeat;
     display: block;
-    /* height: 80vh; */
+    height: 80vh;
     /* width:100%; */
 }
 
@@ -14,13 +14,13 @@
     color: black;
     align-items: center;
     justify-content: center;
-    padding-top: 3rem;
+    padding-top: 7rem;
     font-size: 20px;
     font-weight: 400;
     margin: 0 0 24px;
 }
 .container p{
-    font-size: 15px;
+    font-size: 25px;
     font-family: Arial;
     display:inline-block;
     color: #5c3d03;
@@ -85,9 +85,9 @@
 @media(max-width: 500px){
     .OurServices{
         display: block;
-        /* height: 80vh; */
+        height: 115vh;
         /* width:100%; */
-        overflow: scroll;
+        overflow: hidden;
     }
     
     .ServicesContainers{
@@ -101,11 +101,19 @@
     .ServicesContainers h2{
         /* align-items:center ; */
         /* display: flex; */
+        font-family: "Poppins",Arial,sans-serif;
         justify-content: center;
+        align-content: center;
+        text-align: center;
         margin-top: 10px;
+        font-weight: bolder;
+        font-size: 20px;
     }
     .ServicesContainers p{
         align-items:center ;
+        font-family: "Poppins",Arial,sans-serif;
+        font-size: 15px;
+        padding: 30px;
         /* display: flex; */
         justify-content: center;
         /* margin-top: 80px; */
@@ -117,6 +125,8 @@
         display:inline-block;
         color: #5c3d03;
         text-align: center;
+        padding: 30px;
+
         width: 30rem;
     }
     
@@ -156,7 +166,7 @@
     }
     .content h4{
         text-align: center;
-        font-weight: normal;
+        font-weight: bold;
     }
     .icons img{
         display: block;
@@ -167,7 +177,7 @@
     
     
     .media{
-        display: block;
+        display: none;
         margin-top:3rem;
         padding:20px;
     }

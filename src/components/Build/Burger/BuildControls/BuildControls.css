@@ -6,7 +6,10 @@
     flex-flow: column;
     align-items: center;
     color: #e0b965;
-    margin: auto;
+    /* margin: auto; */
+    margin-top: -25%;
+    margin-left: 60%;
+    /* margin-bottom: 10%; */
     padding: 10px 0;
 }
 
@@ -62,7 +65,7 @@
     /* margin: auto; */
     margin-top: 5%;
     /* margin-bottom: 10%; */
-    margin-right: 10px;
+    margin-left: 0px;
     padding: 10px 0;
 }
 

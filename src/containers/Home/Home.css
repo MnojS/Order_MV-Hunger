@@ -32,7 +32,7 @@ h1 ,h2{
 }
 .Quote{
     /* border: 1px solid white; */
-    margin-top: -450px;
+    margin-top: -350px;
     margin-left: 610px;
     margin-bottom: 20px;
     text-align: center;
@@ -44,6 +44,32 @@ h1 ,h2{
     font-size: 40px;
     font-weight: 200;
 }
+.SignInButton{
+    position: absolute;
+    margin-bottom: 38%;
+    margin-left: 92%;
+    bottom: 10%;
+    border-radius: 8px;
+     height:4%;
+     text-align: center;
+     width: 5%;
+     background-color: #eea216;
+  
+ }
+.SignOutButton{
+    position: absolute;
+    margin-bottom: 38%;
+    margin-left: 92%;
+    bottom: 10%;
+    border-radius: 8px;
+     height:4%;
+     font-size: large;
+     text-align: center;
+     width: 5%;
+     background-color: #eea216;
+  
+ }
+
 @media(max-width: 500px){
     .home{
         /* display: flex; */
@@ -88,4 +114,29 @@ h1 ,h2{
         font-size: 20px;
         margin-bottom: 20px;
     }
+    .SignInButton{
+        position: absolute;
+        margin-bottom: 135%;
+        margin-left: 5%;
+        bottom: 10%;
+        border-radius: 8px;
+         height:4%;
+         text-align: center;
+         width: 22%;
+         background-color: #af1268;
+      
+     }
+    .SignOutButton{
+        position: absolute;
+        margin-bottom: 38%;
+        margin-left: 90%;
+        bottom: 10%;
+        border-radius: 8px;
+         height:4%;
+         font-size: large;
+         text-align: center;
+         width: 5%;
+         background-color: #af1268;
+      
+     }
 }

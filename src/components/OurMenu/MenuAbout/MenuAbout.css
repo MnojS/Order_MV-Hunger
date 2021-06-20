@@ -31,7 +31,7 @@
     .MenuAbout {
         background-color: black;
         display: block;
-        height: 60vh;
+        height: 40vh;
         text-align: center;
         width: 100%;
         /* margin-left: 35px;
@@ -49,12 +49,12 @@
     }
     .MenuAbout .text span{
         color: rgb(231, 175, 71);
-        font-size: 45px;
+        font-size: 25px;
     }
     
     .MenuAbout .text p{
         color: aliceblue;
-        font-size: 25px;
+        font-size: 15px;
         width: 70%;
         font-weight: lighter;
     }
