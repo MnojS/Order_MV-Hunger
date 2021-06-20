@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins",Arial,sans-serif;
+  
+}
+
+button {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background-color: #fac564;
+}
+
+.login {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  background: #e9e9e9;
+  display: flex;
+  background-image: url("../../assets/images/bg-MenuAbout.jpg");
+
+}
+
+.login .loginContainer {
+  padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login .loginContainer label {
+  color: white;
+  margin: 14px 0;
+  display: block;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.login .loginContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+    border-bottom:1px solid  grey;
+  letter-spacing: 1px;
+  background-color:transparent;
+  color: white;
+
+}
+input[type=text]:focus,textarea:focus,input[type=email]:focus{
+    outline: none;
+    border-bottom: 1px solid #fac564;
+    background-color: transparent;
+}
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: #fff;
+
+}
+.heading {
+  color:white;
+  align-self: center;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: #fac564;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: red;
+}
+
+.login .loginContainer .errorMsg {
+  color: red;
+  font-size: 16px;
+}
+
+button:hover{
+    background-color: #f7b844;
+}
